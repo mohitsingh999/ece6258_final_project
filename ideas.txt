@@ -1,0 +1,4 @@
+- NLM on each channel after conversion to YCbCr?
+- Conversion from RGB?
+- BM3D with different patch distance estimate
+- BM3D multiple iterations
