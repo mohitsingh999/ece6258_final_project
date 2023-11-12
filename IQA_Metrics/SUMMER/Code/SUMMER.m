@@ -1,4 +1,4 @@
-function outCT=summer(im1,im2)
+function outCT=SUMMER(im1,im2)
 %%
 %  Author:              Dogancan Temel
 %  PI:                  Ghassan AlRegib
