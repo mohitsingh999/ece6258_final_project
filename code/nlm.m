@@ -17,18 +17,18 @@ function nlm(image_in, image_out, is_rgb)
     % RUN NLM FILTER
     % y_cie = imnlmfilt(x_cie, 'DegreeOfSmoothing', 0.0001);
     % y = imnlmfilt(x, 'SearchWindowSize', 5);
-    y = imnlmfilt(x);
+    x = imnlmfilt(x);
 
     % % CONVERT BACK TO RGB IF PROVIDED IN RGB
     % if is_rgb
-    %     y = lab2rgb(y_cie);
+    %     x = lab2rgb(y_cie);
     % end
 
     % SAVE IMAGE OUT
     if image_out.contains(".MAT")
-        save(image_out, "y")
+        save(image_out, "x")
     else
-        imwrite(y, image_out);
+        imwrite(x, image_out);
     end
 end
 
