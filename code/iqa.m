@@ -1,4 +1,7 @@
 function iqa(image_path, image_ref_path, image_id, result_file, rekognition)
+    image_path = string(image_path);
+    image_ref_path = string(image_ref_path);
+
     addpath("../IQA_Metrics/CSV/Code/");
     addpath("../IQA_Metrics/CSV/Code/FastEMD");
     addpath("../IQA_Metrics/MS-UNIQUE/");
@@ -63,7 +66,7 @@ function iqa(image_path, image_ref_path, image_id, result_file, rekognition)
     fileID = fopen(result_file, 'a');
 
     % Format and write the data to the file
-    fprintf(fileID, '%s %.3f %.3f %.3f %.3f %.3f %.3f %.3f\n', image_id, psnr_val, ssim_val, cw_ssim_val, unique_val, ms_unique_val, csv_val, summer_val, rekognition);
+    fprintf(fileID, '%s %.3f %.3f %.3f %.3f %.3f %.3f %.3f\r\n', image_id, psnr_val, ssim_val, cw_ssim_val, unique_val, ms_unique_val, csv_val, summer_val, rekognition);
 
     % Close the file
     fclose(fileID);

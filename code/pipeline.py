@@ -69,8 +69,12 @@ def extract_archive(archive_path, extract_dir, archive_extract_dir):
             pass
 
 def get_archive_name(archive_path):
-    with zipfile.ZipFile(archive_path, 'r') as zip_ref:
-        return zip_ref.infolist()[0].filename.split('/')[0]
+    # This can fail if download was unsuccessfull
+    try:
+        with zipfile.ZipFile(archive_path, 'r') as zip_ref:
+            return zip_ref.infolist()[0].filename.split('/')[0]
+    except:
+        return None
 
 def walk_dataset(dataset_path, results_path):
     for (dirpath, dirnames, filenames) in os.walk(dataset_path):
@@ -100,6 +104,7 @@ def run_nlm(dataset_path, results_path):
                     log(f"{outfilepath} exists, continuing")
                     continue
                 ENG.nlm(infilepath, outfilepath, is_rgb, nargout=0)
+    ENG.exit()
 
 def eval_dataset(dataset_path, result_file_path):
     from matlab import engine
@@ -109,15 +114,17 @@ def eval_dataset(dataset_path, result_file_path):
     ENG = engine.start_matlab()
     for (denoised_filepath, _, dataset_relpath) in walk_dataset(dataset_path, dataset_path):
         gt_filepath = denoised_filepath.replace("NOISY", "GT")
+        gt_filepath = gt_filepath.replace(RESULTS_DIR, EXTRACT_DIR)
         # GT file will be downloaded after in pipeline
-        log(f"--------------\nEvaluating denoised file {denoised_filepath}\nwith ground truth file {gt_filepath}\n--------------")
         while not os.path.exists(gt_filepath):
-            log("Waiting for ground truth to download")
+            log("Waiting for ground truth file {gt_filepath} to exist")
             sleep(5)
+        log(f"--------------\nEvaluating denoised file {denoised_filepath}\nwith ground truth file {gt_filepath}\n--------------")
         # rekognition_accuracy = rekognition(denoised_filepath)
         image_id = dataset_relpath.replace("/", "-")
         image_id = image_id.replace("\\", "-")
-        ENG.iqa(denoised_filepath, gt_filepath, image_id, result_file_path, 0)
+        ENG.iqa(denoised_filepath, gt_filepath, image_id, result_file_path, 0, nargout=0)
+    ENG.exit()
 
 def clean_result_files(archive_results_dir):
     ###### CALCULATE STATISTICS HERE AND SAVE BEST/WORST IMAGES ########
@@ -176,6 +183,7 @@ if __name__ == "__main__":
                 log("IS DONE")
                 archive_results_dir = deepcopy(DENOISE_STAGE_PATH)
                 results_file = os.path.join(archive_results_dir, "../results.txt")
+                # results_file = "/home/nwitt/workspace/6258/denoise_project/results.txt"
                 EVAL_STAGE = multiprocessing.Process(target=eval_dataset, args=(archive_results_dir, results_file))
                 EVAL_STAGE.start()
                 EVAL_STAGE_PATH = archive_results_dir
@@ -198,12 +206,22 @@ if __name__ == "__main__":
                 log("DOWNLOAD STAGE")
                 DOWNLOAD_STAGE.join()
                 log("IS DONE")
-                download_path = deepcopy(DOWNLOAD_STAGE_PATH)
-                folder_name = get_archive_name(download_path)
+                link = deepcopy(DOWNLOAD_STAGE_PATH)
+                archive_path = os.path.join(DOWNLOAD_DIR, link.split("/")[-1])
+                folder_name = get_archive_name(archive_path)
+                if folder_name is None:
+                    # unizipping failed, so restart download
+                    log(f"failed to open {archive_path}, removing it and restarting download")
+                    if not TEST:
+                        os.remove(archive_path)
+                    DOWNLOAD_STAGE_PATH = link
+                    DOWNLOAD_STAGE = multiprocessing.Process(target=download_archive, args=(DOWNLOAD_DIR, link))
+                    DOWNLOAD_STAGE.start()
+                    continue
                 archive_extract_dir = os.path.join(EXTRACT_DIR, folder_name)
-                log(f"Starting extract from {download_path} to {archive_extract_dir}")
+                log(f"Starting extract from {archive_path} to {archive_extract_dir}")
                 EXTRACT_STAGE_PATH = archive_extract_dir
-                EXTRACT_STAGE = multiprocessing.Process(target=extract_archive, args=(download_path, EXTRACT_DIR, archive_extract_dir))
+                EXTRACT_STAGE = multiprocessing.Process(target=extract_archive, args=(archive_path, EXTRACT_DIR, archive_extract_dir))
                 EXTRACT_STAGE.start()
                 DOWNLOAD_STAGE = None
                 DOWNLOAD_STAGE_PATH = None
@@ -217,7 +235,7 @@ if __name__ == "__main__":
                 continue
             link = links[archive_idx]
             archive_path = os.path.join(DOWNLOAD_DIR, link.split("/")[-1])
-            DOWNLOAD_STAGE_PATH = archive_path
+            DOWNLOAD_STAGE_PATH = link
             log(f"-----\nPIPELINE STARTING ARCHIVE {archive_path}\n-----")
             DOWNLOAD_STAGE = multiprocessing.Process(target=download_archive, args=(DOWNLOAD_DIR, link))
             DOWNLOAD_STAGE.start()
