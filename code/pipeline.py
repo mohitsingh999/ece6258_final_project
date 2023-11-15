@@ -11,15 +11,16 @@ import shutil
 RESULTS_DIR="./results/nlm_sidd/"
 DOWNLOAD_DIR="./cache/download/"
 EXTRACT_DIR="./cache/extracted/"
-DOWNLOAD_LINKS="../datasets/sidd_download_links.txt"
+DOWNLOAD_LINKS="../datasets/sidd_rgb_download_links.txt"
 
 TEST=False
 if TEST:
     RESULTS_DIR="./results_test/nlm_sidd/"
     DOWNLOAD_DIR="./cache_test/download/"
     EXTRACT_DIR="./cache_test/extracted/"
-    DOWNLOAD_LINKS="../datasets/sidd_download_links.txt"
+    DOWNLOAD_LINKS="./cache_test/sidd_download_links_test.txt"
 
+RESULTS_FILE = os.path.join(RESULTS_DIR, "results.txt")
 LOG_FILE="./log.txt"
 # LOG_FILE=None
 def log(string):
@@ -87,29 +88,32 @@ def walk_dataset(dataset_path, results_path):
             yield (infilepath, outfilepath, dataset_relpath)
 
 def run_nlm(dataset_path, results_path):
-    log(f"Running NLM")
-    log(dataset_path)
+    if "GT" in dataset_path:
+        log(f"Skipping denoising of ground truth archive {dataset_path}")
+        return
+    log(f"Running NLM on {dataset_path}")
     from matlab import engine
     ENG = engine.start_matlab()
     for (infilepath, outfilepath, dataset_relpath) in walk_dataset(dataset_path, results_path):
-        if 'NOISY' in infilepath:
-            is_rgb = True
-            if '.MAT' in infilepath:
-                is_rgb = False
-            if TEST:
-                log(f"DRY RUN: nlm({infilepath}, {outfilepath}, {is_rgb})")
-            else:
-                log(f"nlm({infilepath}, {outfilepath}, {is_rgb})")
-                if os.path.exists(outfilepath):
-                    log(f"{outfilepath} exists, continuing")
-                    continue
-                ENG.nlm(infilepath, outfilepath, is_rgb, nargout=0)
+        is_rgb = True
+        if '.MAT' in infilepath:
+            is_rgb = False
+        # if False:
+        if TEST:
+            log(f"DRY RUN: nlm({infilepath}, {outfilepath}, {is_rgb})")
+        else:
+            log(f"nlm({infilepath}, {outfilepath}, {is_rgb})")
+            if os.path.exists(outfilepath):
+                log(f"{outfilepath} exists, continuing")
+                continue
+            ENG.nlm(infilepath, outfilepath, is_rgb, nargout=0)
     ENG.exit()
 
 def eval_dataset(dataset_path, result_file_path):
     from matlab import engine
     # Don't evaluate ground truth files
     if "GT" in dataset_path:
+        log(f"Skipping evaluation of ground truth archive {dataset_path}")
         return
     ENG = engine.start_matlab()
     for (denoised_filepath, _, dataset_relpath) in walk_dataset(dataset_path, dataset_path):
@@ -121,9 +125,11 @@ def eval_dataset(dataset_path, result_file_path):
             sleep(5)
         log(f"--------------\nEvaluating denoised file {denoised_filepath}\nwith ground truth file {gt_filepath}\n--------------")
         # rekognition_accuracy = rekognition(denoised_filepath)
-        image_id = dataset_relpath.replace("/", "-")
-        image_id = image_id.replace("\\", "-")
-        ENG.iqa(denoised_filepath, gt_filepath, image_id, result_file_path, 0, nargout=0)
+        image_id = dataset_relpath
+        if image_id[0] == "/":
+            image_id = image_id[1:]
+        image_id = image_id.replace("/", "-")
+        ENG.iqa_fast(denoised_filepath, gt_filepath, image_id, result_file_path, nargout=0)
     ENG.exit()
 
 def clean_result_files(archive_results_dir):
@@ -134,12 +140,18 @@ def clean_result_files(archive_results_dir):
     if not TEST:
         try:
             shutil.rmtree(archive_results_dir)
+        except:
+            pass
+        try:
             shutil.rmtree(archive_extract_dir)
         except:
             pass
 
 
 if __name__ == "__main__":
+    if os.path.exists(RESULTS_FILE):
+        print(f"MOVE THE EXISTING RESULT FILE AT {RESULTS_FILE} BEFORE RUNNING")
+        sys.exit()
     if LOG_FILE is not None:
         try:
             os.remove(LOG_FILE)
@@ -156,17 +168,20 @@ if __name__ == "__main__":
     DOWNLOAD_STAGE = None
     EXTRACT_STAGE = None
     DENOISE_STAGE = None
+    NOP_STAGE = None  # This is so our ground truth archive can get out of denoise while we eval
     EVAL_STAGE = None
 
     DOWNLOAD_STAGE_PATH = None
     EXTRACT_STAGE_PATH = None
     DENOISE_STAGE_PATH = None
+    NOP_STAGE_PATH = None
     EVAL_STAGE_PATH = None
 
     archive_idx = 0
     consumed_all_links = False
 
     while True:
+        # EVAL -> CLEANUP
         if EVAL_STAGE is not None and not EVAL_STAGE.is_alive():
             log("EVAL STAGE")
             EVAL_STAGE.join()
@@ -174,21 +189,32 @@ if __name__ == "__main__":
             log("IS DONE")
             EVAL_STAGE = None
             EVAL_STAGE_PATH = None
-            if consumed_all_links == True and all(stage is None for stage in pipeline):
+            if consumed_all_links == True and all(stage is None for stage in [DOWNLOAD_STAGE, EXTRACT_STAGE, DENOISE_STAGE, NOP_STAGE, EVAL_STAGE]):
+                log("PIPELINE FINISHED, EXITING")
                 break
-        if DENOISE_STAGE is not None and not DENOISE_STAGE.is_alive():
+        # NOP -> EVAL
+        if NOP_STAGE is not None:
             if EVAL_STAGE is None:
+                log("NOP STAGE")
+                log("IS DONE")
+                archive_results_dir = deepcopy(NOP_STAGE_PATH)
+                EVAL_STAGE = multiprocessing.Process(target=eval_dataset, args=(archive_results_dir, RESULTS_FILE))
+                EVAL_STAGE.start()
+                EVAL_STAGE_PATH = archive_results_dir
+                NOP_STAGE = None
+                NOP_STAGE_PATH = None
+        # DENOISE -> NOP
+        if DENOISE_STAGE is not None and not DENOISE_STAGE.is_alive():
+            if NOP_STAGE is None:
                 log("DENOISE STAGE")
                 DENOISE_STAGE.join()
                 log("IS DONE")
                 archive_results_dir = deepcopy(DENOISE_STAGE_PATH)
-                results_file = os.path.join(archive_results_dir, "../results.txt")
-                # results_file = "/home/nwitt/workspace/6258/denoise_project/results.txt"
-                EVAL_STAGE = multiprocessing.Process(target=eval_dataset, args=(archive_results_dir, results_file))
-                EVAL_STAGE.start()
-                EVAL_STAGE_PATH = archive_results_dir
+                NOP_STAGE = True
+                NOP_STAGE_PATH = archive_results_dir
                 DENOISE_STAGE = None
                 DENOISE_STAGE_PATH = None
+        # EXTRACT -> DENOISE
         if EXTRACT_STAGE is not None and not EXTRACT_STAGE.is_alive():
             if DENOISE_STAGE is None:
                 log("EXTRACT STAGE")
@@ -201,6 +227,7 @@ if __name__ == "__main__":
                 DENOISE_STAGE_PATH = archive_results_dir
                 EXTRACT_STAGE = None
                 EXTRACT_STAGE_PATH = None
+        # DOWNLOAD -> EXTRACT
         if DOWNLOAD_STAGE is not None and not DOWNLOAD_STAGE.is_alive():
             if EXTRACT_STAGE is None:
                 log("DOWNLOAD STAGE")
@@ -225,10 +252,8 @@ if __name__ == "__main__":
                 EXTRACT_STAGE.start()
                 DOWNLOAD_STAGE = None
                 DOWNLOAD_STAGE_PATH = None
+        # -> DOWNLOAD
         if DOWNLOAD_STAGE is None:
-            if TEST and archive_idx >= 1:
-                sleep(1)
-                continue
             if archive_idx >= len(links):
                 consumed_all_links = True
                 sleep(1)

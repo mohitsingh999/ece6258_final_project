@@ -33,6 +33,7 @@ function iqa(image_path, image_ref_path, image_id, result_file, rekognition)
     else
         image_gray = image;
         image_rgb = cat(3, image, image, image);
+    end
     if length(size(image_ref)) == 3
         image_ref_gray = rgb2gray(image_ref);
         image_ref_rgb = image_ref;
@@ -42,24 +43,31 @@ function iqa(image_path, image_ref_path, image_id, result_file, rekognition)
     end
 
     % Calculate the PSNR
+    % 0.25 seconds
     psnr_val = psnr(image, image_ref);
 
     % Calculate SSIM
+    % 3.42 seconds
     ssim_val = ssim(image, image_ref);
 
     % Calculate CW-SSIM 
+    % LONG
     cw_ssim_val = cw_ssim(image_gray, image_ref_gray, 6, 16, 0, 0);
 
     % Calculate UNIQUE 
+    % 8 seconds
     unique_val = mslUNIQUE(image_rgb, image_ref_rgb);
 
-    % Calculate MSL-UNIQUE
+    % Calculate MS-UNIQUE
+    % 27 seconds
     ms_unique_val = mslMSUNIQUE(image_rgb, image_ref_rgb);
 
     % Calculate CSV
+    % 13 seconds
     csv_val = csv(image_rgb, image_ref_rgb);
 
     % Calculate SUMMER
+    % 1 second
     summer_val = SUMMER(image_rgb, image_ref_rgb);
 
     % Open a file for writing
