@@ -7,11 +7,15 @@ from copy import deepcopy
 from time import sleep
 import zipfile
 import shutil
+import random
 
 RESULTS_DIR="./results/nlm_sidd/"
 DOWNLOAD_DIR="./cache/download/"
 EXTRACT_DIR="./cache/extracted/"
 DOWNLOAD_LINKS="../datasets/sidd_rgb_download_links.txt"
+NUM_ARCHIVE_SAMPLES=32  # 5% of the archives
+NUM_IMAGE_SAMPLES=15  # 10% of the images
+
 
 TEST=False
 if TEST:
@@ -19,6 +23,8 @@ if TEST:
     DOWNLOAD_DIR="./cache_test/download/"
     EXTRACT_DIR="./cache_test/extracted/"
     DOWNLOAD_LINKS="./cache_test/sidd_download_links_test.txt"
+    NUM_ARCHIVE_SAMPLES=3
+    NUM_IMAGE_SAMPLES=3
 
 RESULTS_FILE = os.path.join(RESULTS_DIR, "results.txt")
 LOG_FILE="./log.txt"
@@ -94,7 +100,14 @@ def run_nlm(dataset_path, results_path):
     log(f"Running NLM on {dataset_path}")
     from matlab import engine
     ENG = engine.start_matlab()
-    for (infilepath, outfilepath, dataset_relpath) in walk_dataset(dataset_path, results_path):
+    log(f"MATLAB started")
+    # Sample from the dataset_path
+    files = []
+    for path in walk_dataset(dataset_path, results_path):
+        files.append(path)
+    sampled_files = random.sample(files, NUM_IMAGE_SAMPLES)
+    log(f"Sampled the following files for denoising: {[path[0] for path in sampled_files]}")
+    for (infilepath, outfilepath, dataset_relpath) in sampled_files:
         is_rgb = True
         if '.MAT' in infilepath:
             is_rgb = False
@@ -157,6 +170,11 @@ if __name__ == "__main__":
             os.remove(LOG_FILE)
         except:
             pass
+
+    download_time = 10 # minutes
+    denoise_runtime = 0.5 # minutes
+    print("Estimated Runtime is {} hours".format(max(NUM_ARCHIVE_SAMPLES * download_time, NUM_IMAGE_SAMPLES * denoise_runtime)/60))
+    print(f"Status is now in {LOG_FILE}")
     log(f"Making directories \n{RESULTS_DIR}\n{DOWNLOAD_DIR}\n{EXTRACT_DIR}")
     os.makedirs(RESULTS_DIR, exist_ok=True)
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
@@ -164,6 +182,15 @@ if __name__ == "__main__":
 
     with open(DOWNLOAD_LINKS, "r") as f:
         links = [link.strip() for link in f.readlines()]
+    sample_idxs = range(int(len(links) / 2))
+    link_idxs = random.sample(sample_idxs, NUM_ARCHIVE_SAMPLES)
+    sampled_links = []
+    for link_idx in link_idxs:
+        sampled_links.append(links[link_idx * 2])  # Noisy
+        sampled_links.append(links[link_idx * 2 + 1])  # Ground truth follows noisy
+    links = sampled_links
+
+    log(f"Sampled the following links for this run {links}")
 
     DOWNLOAD_STAGE = None
     EXTRACT_STAGE = None
