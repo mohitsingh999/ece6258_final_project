@@ -1,0 +1,2135 @@
+Making directories 
+./results/nlm_sidd/
+./cache/download/
+./cache/extracted/
+-----
+PIPELINE STARTING ARCHIVE ./cache/download/cbc926c6-f101-4987-9d72-bc334875a357
+-----
+Downloading from https://competitions.codalab.org/my/datasets/download/cbc926c6-f101-4987-9d72-bc334875a357.
+Downloaded cbc926c6-f101-4987-9d72-bc334875a357 successfully
+DOWNLOAD STAGE
+IS DONE
+Starting extract from ./cache/download/cbc926c6-f101-4987-9d72-bc334875a357 to ./cache/extracted/0001_NOISY_RAW
+-----
+PIPELINE STARTING ARCHIVE ./cache/download/6cd6bbb2-5f39-4fb5-913f-9c5845358f26
+-----
+Unzipping ./cache/download/cbc926c6-f101-4987-9d72-bc334875a357 to ./cache/extracted/
+Downloading from https://competitions.codalab.org/my/datasets/download/6cd6bbb2-5f39-4fb5-913f-9c5845358f26.
+Deleting archive ./cache/download/cbc926c6-f101-4987-9d72-bc334875a357
+EXTRACT STAGE
+IS DONE
+Running NLM
+./cache/extracted/0001_NOISY_RAW
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_117.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_117.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_075.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_075.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_066.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_066.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_006.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_006.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_082.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_082.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_135.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_135.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_051.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_051.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_100.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_100.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_072.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_072.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_140.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_140.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_144.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_144.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_007.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_007.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_093.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_093.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_096.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_096.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_134.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_134.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_119.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_119.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_064.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_064.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_104.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_104.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_027.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_027.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_059.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_059.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_127.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_127.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_033.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_033.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_057.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_057.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_089.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_089.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_014.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_014.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_088.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_088.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_041.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_041.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_031.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_031.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_122.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_122.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_044.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_044.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_123.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_123.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_102.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_102.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_078.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_078.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_035.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_035.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_055.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_055.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_124.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_124.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_005.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_005.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_112.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_112.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_073.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_073.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_116.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_116.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_021.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_021.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_062.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_062.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_028.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_028.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_149.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_149.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_128.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_128.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_074.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_074.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_107.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_107.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_052.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_052.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_056.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_056.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_022.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_022.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_125.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_125.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_026.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_026.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_019.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_019.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_050.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_050.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_058.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_058.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_013.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_013.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_025.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_025.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_092.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_092.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_018.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_018.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_001.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_001.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_113.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_113.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_068.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_068.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_108.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_108.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_049.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_049.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_012.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_012.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_132.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_132.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_003.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_003.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_020.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_020.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_040.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_040.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_091.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_091.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_010.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_010.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_037.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_037.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_016.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_016.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_085.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_085.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_011.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_011.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_067.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_067.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_060.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_060.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_071.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_071.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_086.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_086.MAT, False)
+Downloaded 6cd6bbb2-5f39-4fb5-913f-9c5845358f26 successfully
+DOWNLOAD STAGE
+IS DONE
+Starting extract from ./cache/download/6cd6bbb2-5f39-4fb5-913f-9c5845358f26 to ./cache/extracted/0001_GT_RAW
+-----
+PIPELINE STARTING ARCHIVE ./cache/download/f08201a2-4b2e-4766-8f4d-a8c137ffcf8e
+-----
+Unzipping ./cache/download/6cd6bbb2-5f39-4fb5-913f-9c5845358f26 to ./cache/extracted/
+Downloading from https://competitions.codalab.org/my/datasets/download/f08201a2-4b2e-4766-8f4d-a8c137ffcf8e.
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_097.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_097.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_042.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_042.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_054.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_054.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_143.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_143.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_063.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_063.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_094.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_094.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_036.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_036.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_076.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_076.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_043.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_043.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_030.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_030.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_115.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_115.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_150.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_150.MAT, False)
+Deleting archive ./cache/download/6cd6bbb2-5f39-4fb5-913f-9c5845358f26
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_120.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_120.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_145.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_145.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_048.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_048.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_129.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_129.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_070.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_070.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_126.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_126.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_121.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_121.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_017.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_017.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_111.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_111.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_029.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_029.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_061.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_061.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_004.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_004.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_130.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_130.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_098.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_098.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_110.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_110.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_079.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_079.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_090.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_090.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_045.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_045.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_133.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_133.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_131.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_131.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_065.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_065.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_002.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_002.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_146.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_146.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_105.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_105.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_024.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_024.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_099.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_099.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_106.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_106.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_009.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_009.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_046.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_046.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_148.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_148.MAT, False)
+Downloaded f08201a2-4b2e-4766-8f4d-a8c137ffcf8e successfully
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_142.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_142.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_038.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_038.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_069.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_069.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_081.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_081.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_047.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_047.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_138.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_138.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_039.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_039.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_015.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_015.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_034.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_034.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_103.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_103.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_084.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_084.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_077.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_077.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_032.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_032.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_023.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_023.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_080.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_080.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_141.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_141.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_053.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_053.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_118.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_118.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_101.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_101.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_109.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_109.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_136.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_136.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_147.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_147.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_114.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_114.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_008.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_008.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_087.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_087.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_083.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_083.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_139.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_139.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_137.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_137.MAT, False)
+nlm(./cache/extracted/0001_NOISY_RAW/0001_NOISY_RAW_095.MAT, ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_095.MAT, False)
+DENOISE STAGE
+IS DONE
+EXTRACT STAGE
+IS DONE
+DOWNLOAD STAGE
+IS DONE
+Running NLM
+./cache/extracted/0001_GT_RAW
+Starting extract from ./cache/download/f08201a2-4b2e-4766-8f4d-a8c137ffcf8e to ./cache/extracted/0001_NOISY_SRGB
+-----
+PIPELINE STARTING ARCHIVE ./cache/download/5709d304-e103-465e-85a6-fcef302983dd
+-----
+Unzipping ./cache/download/f08201a2-4b2e-4766-8f4d-a8c137ffcf8e to ./cache/extracted/
+Downloading from https://competitions.codalab.org/my/datasets/download/5709d304-e103-465e-85a6-fcef302983dd.
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_117.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_117.MAT
+--------------
+Deleting archive ./cache/download/f08201a2-4b2e-4766-8f4d-a8c137ffcf8e
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_075.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_075.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_066.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_066.MAT
+--------------
+Downloaded 5709d304-e103-465e-85a6-fcef302983dd successfully
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_006.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_006.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_082.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_082.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_135.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_135.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_051.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_051.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_100.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_100.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_072.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_072.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_140.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_140.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_144.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_144.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_007.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_007.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_093.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_093.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_096.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_096.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_134.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_134.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_119.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_119.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_064.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_064.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_104.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_104.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_027.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_027.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_059.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_059.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_127.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_127.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_033.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_033.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_057.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_057.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_089.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_089.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_014.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_014.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_088.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_088.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_041.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_041.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_031.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_031.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_122.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_122.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_044.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_044.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_123.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_123.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_102.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_102.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_078.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_078.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_035.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_035.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_055.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_055.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_124.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_124.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_005.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_005.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_112.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_112.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_073.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_073.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_116.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_116.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_021.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_021.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_062.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_062.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_028.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_028.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_149.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_149.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_128.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_128.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_074.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_074.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_107.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_107.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_052.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_052.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_056.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_056.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_022.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_022.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_125.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_125.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_026.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_026.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_019.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_019.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_050.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_050.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_058.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_058.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_013.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_013.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_025.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_025.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_092.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_092.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_018.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_018.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_001.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_001.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_113.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_113.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_068.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_068.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_108.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_108.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_049.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_049.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_012.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_012.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_132.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_132.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_003.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_003.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_020.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_020.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_040.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_040.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_091.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_091.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_010.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_010.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_037.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_037.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_016.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_016.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_085.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_085.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_011.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_011.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_067.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_067.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_060.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_060.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_071.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_071.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_086.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_086.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_097.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_097.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_042.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_042.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_054.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_054.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_143.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_143.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_063.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_063.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_094.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_094.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_036.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_036.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_076.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_076.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_043.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_043.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_030.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_030.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_115.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_115.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_150.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_150.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_120.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_120.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_145.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_145.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_048.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_048.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_129.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_129.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_070.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_070.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_126.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_126.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_121.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_121.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_017.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_017.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_111.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_111.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_029.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_029.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_061.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_061.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_004.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_004.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_130.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_130.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_098.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_098.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_110.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_110.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_079.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_079.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_090.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_090.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_045.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_045.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_133.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_133.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_131.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_131.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_065.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_065.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_002.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_002.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_146.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_146.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_105.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_105.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_024.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_024.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_099.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_099.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_106.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_106.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_009.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_009.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_046.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_046.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_148.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_148.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_142.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_142.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_038.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_038.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_069.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_069.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_081.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_081.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_047.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_047.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_138.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_138.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_039.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_039.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_015.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_015.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_034.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_034.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_103.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_103.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_084.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_084.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_077.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_077.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_032.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_032.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_023.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_023.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_080.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_080.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_141.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_141.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_053.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_053.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_118.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_118.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_101.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_101.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_109.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_109.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_136.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_136.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_147.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_147.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_114.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_114.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_008.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_008.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_087.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_087.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_083.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_083.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_139.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_139.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_137.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_137.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_RAW/0001_NOISY_RAW_095.MAT
+with ground truth file ./cache/extracted/0001_GT_RAW/0001_GT_RAW_095.MAT
+--------------
+EVAL STAGE
+Removing ./results/nlm_sidd/0001_NOISY_RAW
+Removing ./cache/extracted/0001_NOISY_RAW
+IS DONE
+DENOISE STAGE
+IS DONE
+EXTRACT STAGE
+IS DONE
+DOWNLOAD STAGE
+IS DONE
+Starting extract from ./cache/download/5709d304-e103-465e-85a6-fcef302983dd to ./cache/extracted/0001_GT_SRGB
+-----
+PIPELINE STARTING ARCHIVE ./cache/download/3be87133-b4b0-4a48-b0d2-5b37e37a7c64
+-----
+Unzipping ./cache/download/5709d304-e103-465e-85a6-fcef302983dd to ./cache/extracted/
+Downloading from https://competitions.codalab.org/my/datasets/download/3be87133-b4b0-4a48-b0d2-5b37e37a7c64.
+Running NLM
+./cache/extracted/0001_NOISY_SRGB
+EVAL STAGE
+Removing ./results/nlm_sidd/0001_GT_RAW
+Removing ./cache/extracted/0001_GT_RAW
+IS DONE
+Downloaded 3be87133-b4b0-4a48-b0d2-5b37e37a7c64 successfully
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_081.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_081.PNG, True)
+Deleting archive ./cache/download/5709d304-e103-465e-85a6-fcef302983dd
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_048.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_048.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_050.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_050.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_059.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_059.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_106.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_106.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_149.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_149.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_113.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_113.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_010.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_010.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_111.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_111.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_098.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_098.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_115.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_115.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_042.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_042.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_069.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_069.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_145.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_145.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_087.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_087.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_073.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_073.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_143.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_143.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_057.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_057.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_070.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_070.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_045.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_045.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_062.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_062.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_085.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_085.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_029.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_029.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_003.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_003.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_086.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_086.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_046.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_046.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_060.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_060.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_140.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_140.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_016.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_016.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_072.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_072.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_100.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_100.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_092.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_092.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_084.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_084.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_026.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_026.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_134.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_134.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_105.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_105.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_036.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_036.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_114.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_114.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_034.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_034.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_108.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_108.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_104.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_104.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_082.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_082.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_083.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_083.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_004.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_004.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_117.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_117.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_044.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_044.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_119.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_119.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_047.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_047.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_008.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_008.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_096.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_096.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_125.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_125.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_077.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_077.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_135.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_135.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_039.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_039.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_064.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_064.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_067.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_067.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_093.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_093.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_078.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_078.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_136.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_136.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_075.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_075.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_110.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_110.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_009.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_009.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_068.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_068.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_095.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_095.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_133.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_133.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_056.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_056.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_123.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_123.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_005.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_005.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_006.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_006.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_080.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_080.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_103.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_103.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_021.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_021.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_102.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_102.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_054.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_054.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_043.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_043.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_035.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_035.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_118.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_118.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_137.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_137.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_130.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_130.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_112.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_112.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_015.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_015.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_017.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_017.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_129.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_129.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_066.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_066.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_053.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_053.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_028.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_028.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_139.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_139.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_076.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_076.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_065.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_065.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_121.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_121.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_030.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_030.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_071.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_071.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_022.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_022.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_074.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_074.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_012.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_012.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_097.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_097.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_023.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_023.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_146.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_146.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_055.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_055.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_142.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_142.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_126.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_126.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_058.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_058.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_011.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_011.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_128.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_128.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_025.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_025.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_027.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_027.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_090.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_090.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_032.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_032.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_144.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_144.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_109.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_109.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_038.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_038.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_049.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_049.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_124.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_124.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_120.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_120.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_132.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_132.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_079.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_079.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_052.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_052.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_019.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_019.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_013.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_013.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_094.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_094.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_147.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_147.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_099.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_099.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_002.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_002.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_024.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_024.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_150.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_150.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_040.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_040.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_031.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_031.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_037.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_037.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_091.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_091.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_018.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_018.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_148.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_148.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_063.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_063.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_131.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_131.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_001.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_001.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_020.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_020.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_107.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_107.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_007.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_007.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_051.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_051.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_101.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_101.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_089.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_089.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_033.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_033.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_141.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_141.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_061.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_061.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_014.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_014.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_041.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_041.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_138.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_138.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_127.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_127.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_116.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_116.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_122.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_122.PNG, True)
+nlm(./cache/extracted/0001_NOISY_SRGB/0001_NOISY_SRGB_088.PNG, ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_088.PNG, True)
+DENOISE STAGE
+IS DONE
+EXTRACT STAGE
+IS DONE
+DOWNLOAD STAGE
+IS DONE
+Running NLM
+./cache/extracted/0001_GT_SRGB
+Starting extract from ./cache/download/3be87133-b4b0-4a48-b0d2-5b37e37a7c64 to ./cache/extracted/0001_METADATA_RAW
+-----
+PIPELINE STARTING ARCHIVE ./cache/download/6e499742-fbf0-4701-8dd4-4e2c241a055e
+-----
+Unzipping ./cache/download/3be87133-b4b0-4a48-b0d2-5b37e37a7c64 to ./cache/extracted/
+Downloading from https://competitions.codalab.org/my/datasets/download/6e499742-fbf0-4701-8dd4-4e2c241a055e.
+Deleting archive ./cache/download/3be87133-b4b0-4a48-b0d2-5b37e37a7c64
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_081.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_081.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_048.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_048.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_050.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_050.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_059.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_059.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_106.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_106.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_149.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_149.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_113.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_113.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_010.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_010.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_111.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_111.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_098.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_098.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_115.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_115.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_042.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_042.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_069.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_069.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_145.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_145.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_087.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_087.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_073.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_073.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_143.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_143.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_057.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_057.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_070.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_070.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_045.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_045.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_062.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_062.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_085.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_085.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_029.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_029.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_003.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_003.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_086.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_086.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_046.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_046.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_060.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_060.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_140.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_140.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_016.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_016.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_072.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_072.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_100.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_100.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_092.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_092.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_084.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_084.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_026.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_026.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_134.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_134.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_105.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_105.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_036.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_036.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_114.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_114.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_034.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_034.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_108.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_108.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_104.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_104.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_082.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_082.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_083.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_083.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_004.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_004.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_117.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_117.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_044.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_044.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_119.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_119.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_047.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_047.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_008.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_008.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_096.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_096.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_125.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_125.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_077.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_077.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_135.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_135.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_039.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_039.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_064.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_064.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_067.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_067.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_093.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_093.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_078.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_078.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_136.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_136.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_075.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_075.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_110.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_110.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_009.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_009.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_068.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_068.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_095.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_095.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_133.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_133.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_056.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_056.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_123.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_123.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_005.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_005.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_006.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_006.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_080.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_080.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_103.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_103.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_021.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_021.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_102.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_102.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_054.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_054.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_043.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_043.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_035.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_035.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_118.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_118.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_137.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_137.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_130.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_130.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_112.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_112.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_015.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_015.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_017.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_017.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_129.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_129.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_066.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_066.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_053.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_053.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_028.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_028.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_139.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_139.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_076.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_076.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_065.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_065.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_121.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_121.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_030.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_030.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_071.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_071.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_022.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_022.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_074.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_074.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_012.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_012.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_097.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_097.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_023.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_023.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_146.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_146.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_055.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_055.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_142.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_142.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_126.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_126.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_058.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_058.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_011.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_011.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_128.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_128.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_025.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_025.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_027.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_027.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_090.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_090.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_032.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_032.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_144.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_144.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_109.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_109.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_038.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_038.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_049.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_049.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_124.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_124.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_120.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_120.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_132.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_132.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_079.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_079.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_052.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_052.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_019.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_019.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_013.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_013.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_094.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_094.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_147.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_147.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_099.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_099.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_002.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_002.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_024.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_024.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_150.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_150.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_040.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_040.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_031.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_031.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_037.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_037.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_091.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_091.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_018.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_018.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_148.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_148.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_063.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_063.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_131.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_131.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_001.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_001.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_020.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_020.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_107.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_107.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_007.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_007.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_051.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_051.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_101.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_101.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_089.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_089.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_033.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_033.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_141.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_141.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_061.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_061.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_014.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_014.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_041.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_041.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_138.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_138.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_127.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_127.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_116.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_116.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_122.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_122.PNG
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0001_NOISY_SRGB/0001_NOISY_SRGB_088.PNG
+with ground truth file ./cache/extracted/0001_GT_SRGB/0001_GT_SRGB_088.PNG
+--------------
+EVAL STAGE
+Removing ./results/nlm_sidd/0001_NOISY_SRGB
+Removing ./cache/extracted/0001_NOISY_SRGB
+IS DONE
+DENOISE STAGE
+IS DONE
+EXTRACT STAGE
+IS DONE
+Running NLM
+./cache/extracted/0001_METADATA_RAW
+EVAL STAGE
+Removing ./results/nlm_sidd/0001_GT_SRGB
+Removing ./cache/extracted/0001_GT_SRGB
+IS DONE
+DENOISE STAGE
+IS DONE
+EVAL STAGE
+Removing ./results/nlm_sidd/0001_METADATA_RAW
+Removing ./cache/extracted/0001_METADATA_RAW
+IS DONE
+Downloaded 6e499742-fbf0-4701-8dd4-4e2c241a055e successfully
+DOWNLOAD STAGE
+IS DONE
+Starting extract from ./cache/download/6e499742-fbf0-4701-8dd4-4e2c241a055e to ./cache/extracted/0002_NOISY_RAW
+-----
+PIPELINE STARTING ARCHIVE ./cache/download/f9893646-ce44-46ae-b6cf-1fa29bfc6950
+-----
+Unzipping ./cache/download/6e499742-fbf0-4701-8dd4-4e2c241a055e to ./cache/extracted/
+Downloading from https://competitions.codalab.org/my/datasets/download/f9893646-ce44-46ae-b6cf-1fa29bfc6950.
+Deleting archive ./cache/download/6e499742-fbf0-4701-8dd4-4e2c241a055e
+EXTRACT STAGE
+IS DONE
+Running NLM
+./cache/extracted/0002_NOISY_RAW
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_063.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_063.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_100.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_100.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_046.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_046.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_097.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_097.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_032.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_032.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_084.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_084.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_002.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_002.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_104.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_104.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_122.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_122.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_119.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_119.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_098.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_098.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_067.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_067.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_113.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_113.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_037.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_037.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_020.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_020.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_130.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_130.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_092.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_092.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_055.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_055.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_072.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_072.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_127.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_127.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_069.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_069.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_052.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_052.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_150.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_150.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_093.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_093.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_011.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_011.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_114.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_114.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_089.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_089.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_145.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_145.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_134.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_134.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_030.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_030.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_050.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_050.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_086.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_086.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_070.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_070.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_075.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_075.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_131.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_131.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_060.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_060.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_014.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_014.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_140.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_140.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_110.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_110.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_062.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_062.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_095.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_095.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_109.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_109.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_074.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_074.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_043.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_043.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_005.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_005.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_073.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_073.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_015.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_015.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_035.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_035.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_018.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_018.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_036.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_036.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_081.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_081.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_041.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_041.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_044.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_044.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_033.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_033.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_026.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_026.MAT, False)
+Downloaded f9893646-ce44-46ae-b6cf-1fa29bfc6950 successfully
+DOWNLOAD STAGE
+IS DONE
+Starting extract from ./cache/download/f9893646-ce44-46ae-b6cf-1fa29bfc6950 to ./cache/extracted/0002_GT_RAW
+-----
+PIPELINE STARTING ARCHIVE ./cache/download/10f3e72b-6ecb-4dcb-b8b8-725c78703e11
+-----
+Unzipping ./cache/download/f9893646-ce44-46ae-b6cf-1fa29bfc6950 to ./cache/extracted/
+Downloading from https://competitions.codalab.org/my/datasets/download/10f3e72b-6ecb-4dcb-b8b8-725c78703e11.
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_071.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_071.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_120.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_120.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_065.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_065.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_066.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_066.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_077.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_077.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_006.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_006.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_106.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_106.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_088.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_088.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_129.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_129.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_049.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_049.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_144.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_144.MAT, False)
+Deleting archive ./cache/download/f9893646-ce44-46ae-b6cf-1fa29bfc6950
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_056.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_056.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_142.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_142.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_133.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_133.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_042.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_042.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_007.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_007.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_012.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_012.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_125.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_125.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_068.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_068.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_017.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_017.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_123.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_123.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_116.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_116.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_001.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_001.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_004.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_004.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_058.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_058.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_112.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_112.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_090.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_090.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_091.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_091.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_019.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_019.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_038.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_038.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_031.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_031.MAT, False)
+Downloaded 10f3e72b-6ecb-4dcb-b8b8-725c78703e11 successfully
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_147.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_147.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_029.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_029.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_107.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_107.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_051.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_051.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_148.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_148.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_083.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_083.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_024.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_024.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_039.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_039.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_149.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_149.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_118.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_118.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_087.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_087.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_124.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_124.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_048.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_048.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_076.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_076.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_009.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_009.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_103.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_103.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_141.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_141.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_016.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_016.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_101.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_101.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_079.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_079.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_061.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_061.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_132.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_132.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_025.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_025.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_078.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_078.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_040.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_040.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_099.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_099.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_117.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_117.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_013.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_013.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_085.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_085.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_054.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_054.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_080.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_080.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_111.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_111.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_028.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_028.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_105.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_105.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_045.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_045.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_003.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_003.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_136.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_136.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_121.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_121.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_053.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_053.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_139.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_139.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_126.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_126.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_057.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_057.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_146.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_146.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_138.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_138.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_022.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_022.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_143.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_143.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_135.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_135.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_021.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_021.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_082.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_082.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_115.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_115.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_059.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_059.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_034.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_034.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_008.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_008.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_137.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_137.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_010.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_010.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_096.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_096.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_102.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_102.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_027.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_027.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_047.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_047.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_108.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_108.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_128.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_128.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_064.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_064.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_023.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_023.MAT, False)
+nlm(./cache/extracted/0002_NOISY_RAW/0002_NOISY_RAW_094.MAT, ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_094.MAT, False)
+DENOISE STAGE
+IS DONE
+EXTRACT STAGE
+IS DONE
+DOWNLOAD STAGE
+IS DONE
+Running NLM
+./cache/extracted/0002_GT_RAW
+Starting extract from ./cache/download/10f3e72b-6ecb-4dcb-b8b8-725c78703e11 to ./cache/extracted/0002_NOISY_SRGB
+-----
+PIPELINE STARTING ARCHIVE ./cache/download/de8a08a3-f196-453b-b664-1df1ec182343
+-----
+Unzipping ./cache/download/10f3e72b-6ecb-4dcb-b8b8-725c78703e11 to ./cache/extracted/
+Downloading from https://competitions.codalab.org/my/datasets/download/de8a08a3-f196-453b-b664-1df1ec182343.
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_063.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_063.MAT
+--------------
+Deleting archive ./cache/download/10f3e72b-6ecb-4dcb-b8b8-725c78703e11
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_100.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_100.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_046.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_046.MAT
+--------------
+Downloaded de8a08a3-f196-453b-b664-1df1ec182343 successfully
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_097.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_097.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_032.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_032.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_084.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_084.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_002.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_002.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_104.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_104.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_122.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_122.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_119.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_119.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_098.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_098.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_067.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_067.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_113.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_113.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_037.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_037.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_020.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_020.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_130.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_130.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_092.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_092.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_055.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_055.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_072.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_072.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_127.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_127.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_069.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_069.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_052.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_052.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_150.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_150.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_093.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_093.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_011.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_011.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_114.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_114.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_089.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_089.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_145.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_145.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_134.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_134.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_030.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_030.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_050.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_050.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_086.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_086.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_070.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_070.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_075.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_075.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_131.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_131.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_060.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_060.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_014.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_014.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_140.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_140.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_110.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_110.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_062.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_062.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_095.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_095.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_109.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_109.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_074.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_074.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_043.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_043.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_005.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_005.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_073.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_073.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_015.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_015.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_035.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_035.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_018.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_018.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_036.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_036.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_081.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_081.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_041.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_041.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_044.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_044.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_033.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_033.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_026.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_026.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_071.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_071.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_120.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_120.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_065.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_065.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_066.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_066.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_077.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_077.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_006.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_006.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_106.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_106.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_088.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_088.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_129.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_129.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_049.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_049.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_144.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_144.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_056.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_056.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_142.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_142.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_133.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_133.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_042.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_042.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_007.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_007.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_012.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_012.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_125.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_125.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_068.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_068.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_017.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_017.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_123.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_123.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_116.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_116.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_001.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_001.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_004.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_004.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_058.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_058.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_112.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_112.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_090.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_090.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_091.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_091.MAT
+--------------
+--------------
+Evaluating denoised file ./results/nlm_sidd/0002_NOISY_RAW/0002_NOISY_RAW_019.MAT
+with ground truth file ./cache/extracted/0002_GT_RAW/0002_GT_RAW_019.MAT
+--------------

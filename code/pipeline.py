@@ -9,7 +9,7 @@ import zipfile
 import shutil
 import random
 
-RESULTS_DIR="./results/nlm_sidd/"
+RESULTS_DIR="./results/nlm_sidd_lab/"
 DOWNLOAD_DIR="./cache/download/"
 EXTRACT_DIR="./cache/extracted/"
 DOWNLOAD_LINKS="../datasets/sidd_rgb_download_links.txt"
@@ -26,8 +26,8 @@ if TEST:
     NUM_ARCHIVE_SAMPLES=3
     NUM_IMAGE_SAMPLES=3
 
-RESULTS_FILE = os.path.join(RESULTS_DIR, "results.txt")
-LOG_FILE="./log.txt"
+RESULTS_FILE = os.path.join(RESULTS_DIR, "nlm_sidd_lab_results.txt")
+LOG_FILE="./nlm_sidd_lab_log.txt"
 # LOG_FILE=None
 def log(string):
     if LOG_FILE is None:
@@ -267,7 +267,10 @@ if __name__ == "__main__":
                     # unizipping failed, so restart download
                     log(f"failed to open {archive_path}, removing it and restarting download")
                     if not TEST:
-                        os.remove(archive_path)
+                        try:
+                            os.remove(archive_path)
+                        except:
+                            pass
                     DOWNLOAD_STAGE_PATH = link
                     DOWNLOAD_STAGE = multiprocessing.Process(target=download_archive, args=(DOWNLOAD_DIR, link))
                     DOWNLOAD_STAGE.start()
