@@ -10,10 +10,9 @@ cure_tsr_image_files = dir(fullfile(cure_tsr_image_path, '**\*.*'));
 cure_tsr_image_files = cure_tsr_image_files(~[cure_tsr_image_files.isdir]);  %remove folders from list
 
 n_files = length(cure_tsr_image_files);  
-
 j = 1;
 %Perform BLSGSM Denoising on Each of the Images
-for i=1:n_files
+for i=43181+38659:n_files
    curr_image_meta = strsplit(cure_tsr_image_files(i).name, '_');
 
    % Check for Ground Truth Images, and Skip Running BLS-GSM on Those

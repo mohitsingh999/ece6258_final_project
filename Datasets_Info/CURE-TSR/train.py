@@ -48,7 +48,7 @@ def main():
     global args 
     args = parser.parse_args()
 
-    debug = 1  # 0: normal mode 1: debug mode
+    debug = 0#: normal mode 1: debug mode
 
     # Data loading code
     # args.data: path to the dataset
@@ -65,21 +65,21 @@ def main():
     test_loader = torch.utils.data.DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False,
                                               num_workers=args.workers, pin_memory=True)
 
-    model = models.Net()
+    model = models.ResNet(models.ResidualBlock, [3, 4, 6, 3])#models.Net()
     model = torch.nn.DataParallel(model).cuda()
     print("=> creating model %s " % model.__class__.__name__)
 
-    savedir = 'CNN_iter'
-    checkpointdir = os.path.join('./checkpoints', savedir)
+    #savedir = 'CNN_iter'
+    checkpointdir = './checkpoints_ResNet34_11232023'#os.path.join('./checkpoints')
 
     if not debug:
-        os.mkdir(checkpointdir)
-        print('log directory: %s' % os.path.join('./logs', savedir))
+        os.mkdir(checkpointdir) #os.mkdir(checkpointdir)
+        #print('log directory: %s' % os.path.join('./logs', savedir))
         print('checkpoints directory: %s' % checkpointdir)
 
     # Set the logger
-    if not debug:
-        logger = Logger(os.path.join('./logs/', savedir))
+    # if not debug:
+    #     logger = Logger(os.path.join('./logs/', savedir))
 
     # define loss function (criterion) and optimizer
     criterion = nn.CrossEntropyLoss().cuda()
@@ -133,8 +133,8 @@ def main():
             best_epoch = epoch + 1
 
         if not debug:
-            for tag, value in info.items():
-                logger.scalar_summary(tag, value, epoch+1)
+            # for tag, value in info.items():
+            #     logger.scalar_summary(tag, value, epoch+1)
 
                 save_checkpoint({
                     'epoch': epoch + 1,
