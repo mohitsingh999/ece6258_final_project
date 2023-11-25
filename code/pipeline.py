@@ -15,9 +15,10 @@ import math
 RESULTS_DIR="./results/nlm_cureor/"
 DOWNLOAD_DIR="./cache/download/"
 EXTRACT_DIR="./cache/extracted/"
-DOWNLOAD_LINKS="../datasets/cureor_rgb_download_links.txt"
+DOWNLOAD_LINKS="../datasets/cureor_rgb_noresize_nosaltpepper_download_links.txt"
 # NUM_IMAGE_SAMPLES=15  # 10% of the images
 NUM_IMAGE_SAMPLES=80
+# NUM_IMAGE_SAMPLES=None
 DATASET="CURE-OR"
 # DATASET="SIDD"
 
@@ -27,7 +28,7 @@ if DATASET == "SIDD":
 if DATASET != "SIDD":
     GT_PATH = "../datasets/cureor_ground_truth/01_no_challenge/"
 
-TEST=True
+TEST=False
 if TEST:
     if DATASET == "SIDD":
         RESULTS_DIR="./results_sidd_test/nlm_cureor/"
@@ -112,7 +113,13 @@ def extract_archive(archive_path, extract_dir, archive_extract_dir):
     if TEST:
         log(f'DRY RUN: {" ".join(["unzip", archive_path, "-d", extract_dir])}')
     else:
-        result = subprocess.run(["unzip", archive_path, "-d", extract_dir])
+        if DATASET == 'CURE-OR':
+            with tarfile.open(archive_path, 'r:gz') as tar:
+                tar.extractall(extract_dir)
+        elif DATASET == 'SIDD':
+            result = subprocess.run(["unzip", archive_path, "-d", extract_dir])
+        else:
+            log("DATASET not yet supported")
         log(f"Deleting archive {archive_path}")
         try:
             # shutil.rmtree(archive_path)
@@ -124,10 +131,12 @@ def extract_archive(archive_path, extract_dir, archive_extract_dir):
 def walk_dataset(dataset_path, results_path):
     for (dirpath, dirnames, filenames) in os.walk(dataset_path):
         outdirpath = dirpath.replace(dataset_path, results_path)
-        os.makedirs(outdirpath, exist_ok=True)
+        if len(filenames) > 0:
+            os.makedirs(outdirpath, exist_ok=True)
         for file in filenames:
             infilepath = os.path.join(dirpath, file)
-            outfilepath = os.path.join(outdirpath, file.replace(".jpg", ".png"))
+            # outfilepath = os.path.join(outdirpath, file.replace(".jpg", ".png"))
+            outfilepath = os.path.join(outdirpath, file)
             dataset_relpath = infilepath.replace(dataset_path, "")
             yield (infilepath, outfilepath, dataset_relpath)
 
@@ -143,9 +152,12 @@ def run_nlm(dataset_path, results_path):
     files = []
     for path in walk_dataset(dataset_path, results_path):
         files.append(path)
-    sampled_files = random.sample(files, NUM_IMAGE_SAMPLES)
-    log(f"Sampled the following files for denoising: {[path[0] for path in sampled_files]}")
-    for (infilepath, outfilepath, dataset_relpath) in sampled_files:
+    if NUM_IMAGE_SAMPLES is not None:
+        files = random.sample(files, NUM_IMAGE_SAMPLES)
+        log(f"Sampled the following files for denoising: {[path[0] for path in files]}")
+    else:
+        log(f"Running denoising on all images")
+    for (infilepath, outfilepath, dataset_relpath) in files:
         is_rgb = True
         if '.MAT' in infilepath:
             is_rgb = False
@@ -225,6 +237,7 @@ def process_results(result_file, archive_name):
     min_image_path = os.path.join(RESULTS_DIR, min_result_id)
     shutil.copy(max_image_path, extrema_dir)
     shutil.copy(min_image_path, extrema_dir)
+    #### MAYBE ALSO COPY NOISY IMAGES? #####
 
 def clean_result_files(archive_results_dir):
     ###### REMOVE EXTRACTED NOISY FILES AND PROCESSED FILES ############
