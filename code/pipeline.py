@@ -12,20 +12,31 @@ import tarfile
 import numpy as np
 import math
 
-RESULTS_DIR="./results/nlm_cureor/"
-DOWNLOAD_DIR="./cache/download/"
-EXTRACT_DIR="./cache/extracted/"
-DOWNLOAD_LINKS="../datasets/cureor_rgb_noresize_nosaltpepper_download_links.txt"
-# NUM_IMAGE_SAMPLES=15  # 10% of the images
-NUM_IMAGE_SAMPLES=80
+RESULTS_DIR="./results/curetsr_block/"
+# RESULTS_DIR="./results/nlm_sidd_block/"
+DOWNLOAD_DIR="./cache_tsr/download/"
+# DOWNLOAD_DIR="./cache/download/"
+EXTRACT_DIR="./cache_tsr/extracted/"
+# EXTRACT_DIR="./cache/extracted/"
+# DOWNLOAD_LINKS="../datasets/cureor_rgb_noresize_nosaltpepper_download_links.txt"
+DOWNLOAD_LINKS="../datasets/curetsr_links.txt"
+# DOWNLOAD_LINKS="../datasets/sidd_rgb_download_links.txt"
+NUM_IMAGE_SAMPLES=15  # 10% of the images
+# NUM_IMAGE_SAMPLES=80
 # NUM_IMAGE_SAMPLES=None
-DATASET="CURE-OR"
+DATASET="CURE-TSR"
+# DATASET="CURE-OR"
 # DATASET="SIDD"
+RESULTS_FILENAME="nlm_curetsr_block_results.txt"
+# RESULTS_FILENAME="nlm_sidd_block_results.txt"
+LOG_FILE="./log.txt"
+NLM_TUNED=True
+CLEAN_FILES=False
 
 if DATASET == "SIDD":
     NUM_ARCHIVE_SAMPLES=32  # 5% of the archives
 
-if DATASET != "SIDD":
+if DATASET == "CURE-OR":
     GT_PATH = "../datasets/cureor_ground_truth/01_no_challenge/"
 
 TEST=False
@@ -35,7 +46,7 @@ if TEST:
         DOWNLOAD_DIR="./cache_sidd_test/download/"
         EXTRACT_DIR="./cache_sidd_test/extracted/"
         DOWNLOAD_LINKS="./cache_sidd_test/sidd_download_links_test.txt"
-        NUM_ARCHIVE_SAMPLES=3
+        NUM_ARCHIVE_SAMPLES=2
         NUM_IMAGE_SAMPLES=3
     elif DATASET == "CURE-OR":
         RESULTS_DIR="./results_cureor_test/nlm_cureor/"
@@ -45,8 +56,7 @@ if TEST:
         NUM_IMAGE_SAMPLES=3
 
 
-RESULTS_FILE = os.path.join(RESULTS_DIR, "nlm_cureor_results.txt")
-LOG_FILE="./nlm_cureor_log.txt"
+RESULTS_FILE = os.path.join(RESULTS_DIR, RESULTS_FILENAME)
 # LOG_FILE=None
 def log(string):
     if LOG_FILE is None:
@@ -63,7 +73,7 @@ def log(string):
 
 # Name of compressed archive
 def get_archive_download_name(link):
-    if DATASET == "CURE-OR":
+    if DATASET == "CURE-OR" or DATASET == "CURE-TSR":
         fname = link[:link.find("?")]
         fname = fname[fname.rfind("/")+1:]
     elif DATASET == "SIDD":
@@ -77,7 +87,7 @@ def get_archive_download_name(link):
 def get_archive_name(archive_path):
     # This can fail if download was unsuccessfull
     try:
-        if DATASET == 'SIDD':
+        if DATASET == 'SIDD' or DATASET == 'CURE-TSR':
             # zip file
             with zipfile.ZipFile(archive_path, 'r') as zip_ref:
                 return zip_ref.infolist()[0].filename.split('/')[0]
@@ -89,6 +99,9 @@ def get_archive_name(archive_path):
         return None
 
 def download_archive(download_dir, link):
+    if DATASET == "CURE-TSR":
+        log(f"Skipping download for CURE-TSR")
+        return
     log(f"Downloading from {link}.")
     fname = get_archive_download_name(link)
     archive_path = os.path.join(download_dir, fname)
@@ -116,17 +129,18 @@ def extract_archive(archive_path, extract_dir, archive_extract_dir):
         if DATASET == 'CURE-OR':
             with tarfile.open(archive_path, 'r:gz') as tar:
                 tar.extractall(extract_dir)
-        elif DATASET == 'SIDD':
+        elif DATASET == 'SIDD' or DATASET == 'CURE-TSR':
             result = subprocess.run(["unzip", archive_path, "-d", extract_dir])
         else:
             log("DATASET not yet supported")
         log(f"Deleting archive {archive_path}")
-        try:
-            # shutil.rmtree(archive_path)
-            # Won't remove if it was already there
-            os.remove(archive_path)
-        except:
-            pass
+        if CLEAN_FILES:
+            try:
+                # shutil.rmtree(archive_path)
+                # Won't remove if it was already there
+                os.remove(archive_path)
+            except:
+                pass
 
 def walk_dataset(dataset_path, results_path):
     for (dirpath, dirnames, filenames) in os.walk(dataset_path):
@@ -169,7 +183,10 @@ def run_nlm(dataset_path, results_path):
             if os.path.exists(outfilepath):
                 log(f"{outfilepath} exists, continuing")
                 continue
-            ENG.nlm(infilepath, outfilepath, is_rgb, nargout=0)
+            if NLM_TUNED:
+                ENG.nlm_tuned(infilepath, outfilepath, is_rgb, nargout=0)
+            else:
+                ENG.nlm(infilepath, outfilepath, is_rgb, nargout=0)
     ENG.exit()
 
 def eval_dataset(dataset_path, result_file_path):
@@ -192,6 +209,15 @@ def eval_dataset(dataset_path, result_file_path):
             gt_filepath[-8] = '0'  # Challenge type to 01
             gt_filepath[-7] = '1'  # Challenge type to 01
             gt_filepath = "".join(gt_filepath)
+        elif DATASET == "CURE-TSR":
+            gt_dirpath = dataset_path.replace(RESULTS_DIR, EXTRACT_DIR)
+            gt_dirpath = os.path.join(gt_dirpath, "/ChallengeFree/")
+            # Remove challeng type
+            gt_filename = os.path.basename(denoised_filepath)
+            gt_filename = list(gt_filename)
+            gt_filename[6:11] = list("00_00")  # Challenge type and challenge level to 0
+            gt_filename = "".join(gt_filename)
+            gt_filepath = os.path.join(gt_dirpath, gt_filename)
         else:
             log("DATASET not supported by eval_dataset")
             return
@@ -225,26 +251,50 @@ def process_results(result_file, archive_name):
             l2_norm += float(metric) ** 2
         l2_norm = math.sqrt(l2_norm)
         result_norms.append((result_fields[0], l2_norm))
+    if len(result_norms) == 0:
+        log(f"No results found for {archive_name}, skipping process results")
+        return
     result_norms = np.array(result_norms)
-    # GET MAX/MIN
-    max_result_id = result_norms[np.argmax(result_norms[:, 1].astype(np.float32))][0]
-    min_result_id = result_norms[np.argmin(result_norms[:, 1].astype(np.float32))][0]
+    # GET MAX/MIN/MED
+    sorted_idxs = np.argsort(result_norms[:, 1].astype(np.float32))
+    max_idx = sorted_idxs[-1]
+    med_idx = sorted_idxs[len(result_norms) // 2]
+    min_idx = sorted_idxs[0]
+    # GET IDs
+    max_result_id = result_norms[max_idx][0]
+    med_result_id = result_norms[med_idx][0]
+    min_result_id = result_norms[min_idx][0]
     # COPY FILE
     extrema_dir = os.path.join(RESULTS_DIR, archive_name + '_extrema/')
     os.makedirs(extrema_dir, exist_ok=True)
     # archive_path = os.path.join(RESULTS_DIR, archive_name)
     max_image_path = os.path.join(RESULTS_DIR, max_result_id)
+    med_image_path = os.path.join(RESULTS_DIR, med_result_id)
     min_image_path = os.path.join(RESULTS_DIR, min_result_id)
     shutil.copy(max_image_path, extrema_dir)
+    shutil.copy(med_image_path, extrema_dir)
     shutil.copy(min_image_path, extrema_dir)
     #### MAYBE ALSO COPY NOISY IMAGES? #####
+    try:
+        max_noisy_filepath = max_image_path.replace(RESULTS_DIR, EXTRACT_DIR)
+        max_noisy_dest_filepath = os.path.join(extrema_dir, os.path.basename(max_noisy_filepath).replace(".PNG", "_noisy.PNG"))
+        med_noisy_filepath = med_image_path.replace(RESULTS_DIR, EXTRACT_DIR)
+        med_noisy_dest_filepath = os.path.join(extrema_dir, os.path.basename(med_noisy_filepath).replace(".PNG", "_noisy.PNG"))
+        min_noisy_filepath = min_image_path.replace(RESULTS_DIR, EXTRACT_DIR)
+        min_noisy_dest_filepath = os.path.join(extrema_dir, os.path.basename(min_noisy_filepath).replace(".PNG", "_noisy.PNG"))
+        shutil.copy(max_image_path, max_noisy_dest_filepath)
+        shutil.copy(med_image_path, med_noisy_dest_filepath)
+        shutil.copy(min_image_path, min_noisy_dest_filepath)
+    except Exception as e:
+        log(e)
+        log("Unable to copy noisy file to extrema dir")
 
 def clean_result_files(archive_results_dir):
     ###### REMOVE EXTRACTED NOISY FILES AND PROCESSED FILES ############
     archive_extract_dir = archive_results_dir.replace(RESULTS_DIR, EXTRACT_DIR)
     log(f"Removing {archive_results_dir}")
     log(f"Removing {archive_extract_dir}")
-    if not TEST:
+    if not TEST and CLEAN_FILES:
         try:
             shutil.rmtree(archive_results_dir)
         except:
@@ -266,6 +316,7 @@ if __name__ == "__main__":
             pass
 
     print(f"Status is now in {LOG_FILE}")
+    log("-----------------\nSTARTING PIPELINE\n-----------------")
     log(f"Making directories \n{RESULTS_DIR}\n{DOWNLOAD_DIR}\n{EXTRACT_DIR}")
     os.makedirs(RESULTS_DIR, exist_ok=True)
     os.makedirs(DOWNLOAD_DIR, exist_ok=True)
@@ -361,7 +412,7 @@ if __name__ == "__main__":
                 if folder_name is None:
                     # unizipping failed, so restart download
                     log(f"failed to open {archive_path}, removing it and restarting download")
-                    if not TEST:
+                    if not TEST and CLEAN_FILES:
                         try:
                             os.remove(archive_path)
                         except:

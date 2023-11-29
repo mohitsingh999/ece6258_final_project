@@ -9,7 +9,7 @@ function nlm(image_in, image_out, is_rgb)
         x = imread(image_in);
     end
 
-    % CONVERT TO CIE IF IN RGB
+    % % CONVERT TO CIE IF IN RGB
     % if is_rgb
     %     x = rgb2lab(x);
     % end
@@ -19,7 +19,7 @@ function nlm(image_in, image_out, is_rgb)
     % x = imnlmfilt(x, 'SearchWindowSize', 5);
     x = imnlmfilt(x);
 
-    % CONVERT BACK TO RGB IF PROVIDED IN RGB
+    % % CONVERT BACK TO RGB IF PROVIDED IN RGB
     % if is_rgb
     %     x = lab2rgb(x);
     % end
