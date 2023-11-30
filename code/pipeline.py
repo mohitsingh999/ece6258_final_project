@@ -14,7 +14,7 @@ import math
 
 # RESULTS_DIR="./results/curetsr_block/"
 # RESULTS_DIR="./results/nlm_sidd_block/"
-RESULTS_DIR="./results/nlm_cureor_block/"
+RESULTS_DIR="./results/nlm_cureor_block_smoothless/"
 # DOWNLOAD_DIR="./cache_tsr/download/"
 DOWNLOAD_DIR="./cache/download/"
 # EXTRACT_DIR="./cache_tsr/extracted/"
@@ -30,8 +30,8 @@ DATASET="CURE-OR"
 # DATASET="SIDD"
 # RESULTS_FILENAME="nlm_curetsr_block_results.txt"
 # RESULTS_FILENAME="nlm_sidd_block_results.txt"
-RESULTS_FILENAME="nlm_cureor_block_results.txt"
-LOG_FILE="./log_nlm_cureor_block.txt"
+RESULTS_FILENAME="nlm_cureor_block_smoothless_results.txt"
+LOG_FILE="./log_nlm_cureor_block_smoothless.txt"
 NLM_TUNED=True
 CLEAN_FILES=True
 
@@ -167,7 +167,7 @@ def run_nlm(dataset_path, results_path):
     # Sample from the dataset_path
     files = []
     for path in walk_dataset(dataset_path, results_path):
-        if not "ChallengeFree" in path[0]:  # CURE-OR naming
+        if not "ChallengeFree" in path[0] and "GT" not in path[0]:  # CURE-OR and SIDD-SMALL naming
             files.append(path)
     if NUM_IMAGE_SAMPLES is not None:
         files = random.sample(files, NUM_IMAGE_SAMPLES)

@@ -16,7 +16,7 @@ function nlm(image_in, image_out, is_rgb)
 
     y = x;
 
-    block_size = 64;
+    block_size = 32;
     image_shape = size(x);
     x_remainder = mod(image_shape(1), block_size);
     y_remainder = mod(image_shape(2), block_size);
@@ -30,7 +30,7 @@ function nlm(image_in, image_out, is_rgb)
             block = imcrop(x, [x_offset, y_offset, block_size-1, block_size-1]);
             block_dist = sqrt(sum(block.^2, 3));
             block_sigma = sqrt(var(block_dist(:)));
-            block = imnlmfilt(block, 'DegreeOfSmoothing', 1.5 * block_sigma + 0.1, 'SearchWindowSize', 21);
+            block = imnlmfilt(block, 'DegreeOfSmoothing', 1.1 * block_sigma + 0.001, 'SearchWindowSize', 21, 'ComparisonWindowSize', 5);
             % block = imnlmfilt(block);
             y(y_offset:(y_offset+block_size-1), x_offset:(x_offset+block_size-1),:) = block;
             % imshow(lab2rgb(block));

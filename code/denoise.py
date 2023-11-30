@@ -8,7 +8,7 @@ pipeline.RESULTS_DIR='./results/nlm_siddsmall_block/'
 pipeline.RESULTS_FILE=os.path.join(pipeline.RESULTS_DIR, 'nlm_block_siddsmall_results.txt')
 pipeline.LOG_FILE='./log.txt'
 pipeline.CLEAN_FILES=False
-pipeline.NUM_IMAGE_SAMPLES=1
+pipeline.NUM_IMAGE_SAMPLES=None
 
 # ARCHIVE_URL=''
 ARCHIVE_NAME='sidd_small'
