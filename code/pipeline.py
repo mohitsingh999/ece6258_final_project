@@ -12,26 +12,28 @@ import tarfile
 import numpy as np
 import math
 
-RESULTS_DIR="./results/curetsr_block/"
+# RESULTS_DIR="./results/curetsr_block/"
 # RESULTS_DIR="./results/nlm_sidd_block/"
-DOWNLOAD_DIR="./cache_tsr/download/"
-# DOWNLOAD_DIR="./cache/download/"
-EXTRACT_DIR="./cache_tsr/extracted/"
-# EXTRACT_DIR="./cache/extracted/"
-# DOWNLOAD_LINKS="../datasets/cureor_rgb_noresize_nosaltpepper_download_links.txt"
-DOWNLOAD_LINKS="../datasets/curetsr_links.txt"
+RESULTS_DIR="./results/nlm_cureor_block/"
+# DOWNLOAD_DIR="./cache_tsr/download/"
+DOWNLOAD_DIR="./cache/download/"
+# EXTRACT_DIR="./cache_tsr/extracted/"
+EXTRACT_DIR="./cache/extracted/"
+DOWNLOAD_LINKS="../datasets/cureor_rgb_noresize_nosaltpepper_download_links.txt"
+# DOWNLOAD_LINKS="../datasets/curetsr_links.txt"
 # DOWNLOAD_LINKS="../datasets/sidd_rgb_download_links.txt"
-NUM_IMAGE_SAMPLES=15  # 10% of the images
-# NUM_IMAGE_SAMPLES=80
+# NUM_IMAGE_SAMPLES=15  # 10% of the images
+NUM_IMAGE_SAMPLES=80
 # NUM_IMAGE_SAMPLES=None
-DATASET="CURE-TSR"
-# DATASET="CURE-OR"
+# DATASET="CURE-TSR"
+DATASET="CURE-OR"
 # DATASET="SIDD"
-RESULTS_FILENAME="nlm_curetsr_block_results.txt"
+# RESULTS_FILENAME="nlm_curetsr_block_results.txt"
 # RESULTS_FILENAME="nlm_sidd_block_results.txt"
-LOG_FILE="./log.txt"
+RESULTS_FILENAME="nlm_cureor_block_results.txt"
+LOG_FILE="./log_nlm_cureor_block.txt"
 NLM_TUNED=True
-CLEAN_FILES=False
+CLEAN_FILES=True
 
 if DATASET == "SIDD":
     NUM_ARCHIVE_SAMPLES=32  # 5% of the archives
@@ -73,10 +75,10 @@ def log(string):
 
 # Name of compressed archive
 def get_archive_download_name(link):
-    if DATASET == "CURE-OR" or DATASET == "CURE-TSR":
+    if DATASET == "CURE-OR":
         fname = link[:link.find("?")]
         fname = fname[fname.rfind("/")+1:]
-    elif DATASET == "SIDD":
+    elif DATASET == "SIDD" or DATASET == "CURE-TSR":
         fname = link.split("/")[-1]
     else:
         log("DATASET not yet supported")
@@ -165,7 +167,8 @@ def run_nlm(dataset_path, results_path):
     # Sample from the dataset_path
     files = []
     for path in walk_dataset(dataset_path, results_path):
-        files.append(path)
+        if not "ChallengeFree" in path[0]:  # CURE-OR naming
+            files.append(path)
     if NUM_IMAGE_SAMPLES is not None:
         files = random.sample(files, NUM_IMAGE_SAMPLES)
         log(f"Sampled the following files for denoising: {[path[0] for path in files]}")
@@ -197,7 +200,7 @@ def eval_dataset(dataset_path, result_file_path):
         return
     ENG = engine.start_matlab()
     for (denoised_filepath, _, dataset_relpath) in walk_dataset(dataset_path, dataset_path):
-        if DATASET == "SIDD":
+        if DATASET == "SIDD" or DATASET == "SIDD-SMALL":
             gt_filepath = denoised_filepath.replace("NOISY", "GT")
             gt_filepath = gt_filepath.replace(RESULTS_DIR, EXTRACT_DIR)
         elif DATASET == "CURE-OR":
@@ -211,7 +214,7 @@ def eval_dataset(dataset_path, result_file_path):
             gt_filepath = "".join(gt_filepath)
         elif DATASET == "CURE-TSR":
             gt_dirpath = dataset_path.replace(RESULTS_DIR, EXTRACT_DIR)
-            gt_dirpath = os.path.join(gt_dirpath, "/ChallengeFree/")
+            gt_dirpath = os.path.join(gt_dirpath, "ChallengeFree/")
             # Remove challeng type
             gt_filename = os.path.basename(denoised_filepath)
             gt_filename = list(gt_filename)
@@ -276,17 +279,23 @@ def process_results(result_file, archive_name):
     shutil.copy(min_image_path, extrema_dir)
     #### MAYBE ALSO COPY NOISY IMAGES? #####
     try:
+        if DATASET == "SIDD" or DATASET == "SIDD-SMALL":
+            extension = ".PNG"
+        elif DATASET == "CURE-OR":
+            extension = ".jpg"
+        elif DATASET == "CURE-TSR":
+            extension = ".bmp"
         max_noisy_filepath = max_image_path.replace(RESULTS_DIR, EXTRACT_DIR)
-        max_noisy_dest_filepath = os.path.join(extrema_dir, os.path.basename(max_noisy_filepath).replace(".PNG", "_noisy.PNG"))
+        max_noisy_dest_filepath = os.path.join(extrema_dir, os.path.basename(max_noisy_filepath).replace(extension, "_noisy" + extension))
         med_noisy_filepath = med_image_path.replace(RESULTS_DIR, EXTRACT_DIR)
-        med_noisy_dest_filepath = os.path.join(extrema_dir, os.path.basename(med_noisy_filepath).replace(".PNG", "_noisy.PNG"))
+        med_noisy_dest_filepath = os.path.join(extrema_dir, os.path.basename(med_noisy_filepath).replace(extension, "_noisy" + extension))
         min_noisy_filepath = min_image_path.replace(RESULTS_DIR, EXTRACT_DIR)
-        min_noisy_dest_filepath = os.path.join(extrema_dir, os.path.basename(min_noisy_filepath).replace(".PNG", "_noisy.PNG"))
-        shutil.copy(max_image_path, max_noisy_dest_filepath)
-        shutil.copy(med_image_path, med_noisy_dest_filepath)
-        shutil.copy(min_image_path, min_noisy_dest_filepath)
+        min_noisy_dest_filepath = os.path.join(extrema_dir, os.path.basename(min_noisy_filepath).replace(extension, "_noisy" + extension))
+        shutil.copy(max_noisy_filepath, max_noisy_dest_filepath)
+        shutil.copy(med_noisy_filepath, med_noisy_dest_filepath)
+        shutil.copy(min_noisy_filepath, min_noisy_dest_filepath)
     except Exception as e:
-        log(e)
+        log(str(e))
         log("Unable to copy noisy file to extrema dir")
 
 def clean_result_files(archive_results_dir):

@@ -15,6 +15,10 @@ ids, iqa = parse_results("results/nlm_cureor_lab/nlm_lab_cureor_results.txt")
 means = np.mean(iqa, axis=0)
 print(f"means for nlm lab cureor {means}")
 
+ids, iqa = parse_results("results/nlm_cureor_block/nlm_cureor_block_results.txt")
+means = np.mean(iqa, axis=0)
+print(f"means for nlm block cureor {means}")
+
 ids, iqa = parse_results("results/nlm_sidd/results.txt")
 means = np.mean(iqa, axis=0)
 print(f"means for nlm sidd {means}")
