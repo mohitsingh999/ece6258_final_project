@@ -1,4 +1,4 @@
-function iqa(image_path, image_ref_path, image_id, result_file, rekognition)
+function iqa(image_path, image_ref_path, image_id, result_file)
     image_path = string(image_path);
     image_ref_path = string(image_ref_path);
 
@@ -42,39 +42,67 @@ function iqa(image_path, image_ref_path, image_id, result_file, rekognition)
         image_ref_rgb = cat(3, image_ref, image_ref, image_ref);
     end
 
-    % Calculate the PSNR
-    % 0.25 seconds
-    psnr_val = psnr(image, image_ref);
+    try
+        % Calculate the PSNR
+        % 0.25 seconds
+        psnr_val = psnr(image, image_ref);
+    catch
+        psnr_val = 0.0;
+    end
 
-    % Calculate SSIM
-    % 3.42 seconds
-    ssim_val = ssim(image, image_ref);
+    try
+        % Calculate SSIM
+        % 3.42 seconds
+        ssim_val = ssim(image, image_ref);
+    catch
+        ssim_val = 0;
+    end
 
-    % Calculate CW-SSIM 
-    % LONG
-    cw_ssim_val = cw_ssim(image_gray, image_ref_gray, 6, 16, 0, 0);
+    try
+        % Calculate CW-SSIM 
+        % LONG
+        cw_ssim_val = cw_ssim(image_gray, image_ref_gray, 6, 16, 0, 0);
+    catch
+        cw_ssim_val = 0;
+    end
 
-    % Calculate UNIQUE 
-    % 8 seconds
-    unique_val = mslUNIQUE(image_rgb, image_ref_rgb);
+    try
+        % Calculate UNIQUE 
+        % 8 seconds
+        unique_val = mslUNIQUE(image_rgb, image_ref_rgb);
+    catch
+        unique_val = 0;
+    end
 
-    % Calculate MS-UNIQUE
-    % 27 seconds
-    ms_unique_val = mslMSUNIQUE(image_rgb, image_ref_rgb);
+    try
+        % Calculate MS-UNIQUE
+        % 27 seconds
+        ms_unique_val = mslMSUNIQUE(image_rgb, image_ref_rgb);
+    catch
+        ms_unique_val = 0;
+    end
 
-    % Calculate CSV
-    % 13 seconds
-    csv_val = csv(image_rgb, image_ref_rgb);
+    try
+        % Calculate CSV
+        % 13 seconds
+        csv_val = csv(image_rgb, image_ref_rgb);
+    catch
+        csv_val = 0;
+    end
 
-    % Calculate SUMMER
-    % 1 second
-    summer_val = SUMMER(image_rgb, image_ref_rgb);
+    try
+        % Calculate SUMMER
+        % 1 second
+        summer_val = SUMMER(image_rgb, image_ref_rgb);
+    catch
+        summer_val = 0;
+    end
 
     % Open a file for writing
     fileID = fopen(result_file, 'a');
 
     % Format and write the data to the file
-    fprintf(fileID, '%s %.3f %.3f %.3f %.3f %.3f %.3f %.3f\r\n', image_id, psnr_val, ssim_val, cw_ssim_val, unique_val, ms_unique_val, csv_val, summer_val, rekognition);
+    fprintf(fileID, '%s %.3f %.3f %.3f %.3f %.3f %.3f %.3f\r\n', image_id, psnr_val, ssim_val, cw_ssim_val, unique_val, ms_unique_val, csv_val, summer_val);
 
     % Close the file
     fclose(fileID);

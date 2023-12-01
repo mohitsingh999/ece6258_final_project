@@ -234,7 +234,8 @@ def eval_dataset(dataset_path, result_file_path):
         # rekognition_accuracy = rekognition(denoised_filepath)
         dataset_name = os.path.basename(dataset_path)
         image_id = dataset_name + dataset_relpath
-        ENG.iqa_fast(denoised_filepath, gt_filepath, image_id, result_file_path, nargout=0)
+        # ENG.iqa_fast(denoised_filepath, gt_filepath, image_id, result_file_path, nargout=0)
+        ENG.iqa(denoised_filepath, gt_filepath, image_id, result_file_path, nargout=0)
     ENG.exit()
 
 def process_results(result_file, archive_name):

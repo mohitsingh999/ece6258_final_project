@@ -4,9 +4,9 @@ import os
 
 pipeline.DATASET='SIDD-SMALL'
 pipeline.EXTRACT_DIR='./cache_siddsmall/extracted/'
-pipeline.RESULTS_DIR='./results/nlm_siddsmall_block_smoothless/'
-pipeline.RESULTS_FILE=os.path.join(pipeline.RESULTS_DIR, 'nlm_siddsmall_block_smoothless_results.txt')
-pipeline.LOG_FILE='./log_siddmsall_block_smoothless_results.txt'
+pipeline.RESULTS_DIR='./results/nlm_siddsmall_block_smoothless_full/'
+pipeline.RESULTS_FILE=os.path.join(pipeline.RESULTS_DIR, 'nlm_siddsmall_block_smoothless_full_results.txt')
+pipeline.LOG_FILE='./log_siddmsall_block_smoothless_full.txt'
 pipeline.CLEAN_FILES=False
 pipeline.NUM_IMAGE_SAMPLES=None
 

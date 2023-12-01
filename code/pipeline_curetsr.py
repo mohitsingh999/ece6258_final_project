@@ -12,7 +12,7 @@ import tarfile
 import numpy as np
 import math
 
-RESULTS_DIR="./results/curetsr_block_smoothless_real_train/"
+RESULTS_DIR="./results/curetsr_block_smoothless_real_train_full/"
 # RESULTS_DIR="./results/nlm_sidd_block/"
 # RESULTS_DIR="./results/nlm_cureor_block_smoothless/"
 DOWNLOAD_DIR="./cache_tsr/download/"
@@ -23,15 +23,15 @@ EXTRACT_DIR="./cache_tsr/extracted/"
 DOWNLOAD_LINKS="../datasets/curetsr_links.txt"
 # DOWNLOAD_LINKS="../datasets/sidd_rgb_download_links.txt"
 # NUM_IMAGE_SAMPLES=15  # 10% of the images
-NUM_IMAGE_SAMPLES=None
+NUM_IMAGE_SAMPLES=2000
 # NUM_IMAGE_SAMPLES=None
 DATASET="CURE-TSR"
 # DATASET="CURE-OR"
 # DATASET="SIDD"
-RESULTS_FILENAME="nlm_curetsr_block_smoothless_real_train_results.txt"
+RESULTS_FILENAME="nlm_curetsr_block_smoothless_real_train_full_results.txt"
 # RESULTS_FILENAME="nlm_sidd_block_results.txt"
 # RESULTS_FILENAME="nlm_cureor_block_smoothless_results.txt"
-LOG_FILE="./log_nlm_curetsr_block_smoothless_real_train.txt"
+LOG_FILE="./log_nlm_curetsr_block_smoothless_real_train_full.txt"
 NLM_TUNED=True
 CLEAN_FILES=False
 
@@ -215,6 +215,7 @@ def eval_dataset(dataset_path, result_file_path):
         elif DATASET == "CURE-TSR":
             gt_dirpath = dataset_path.replace(RESULTS_DIR, EXTRACT_DIR)
             gt_dirpath = os.path.join(gt_dirpath, "ChallengeFree/")
+            # gt_dirpath = os.path.join(EXTRACT_DIR, "ChallengeFree/")
             # Remove challeng type
             gt_filename = os.path.basename(denoised_filepath)
             gt_filename = list(gt_filename)
@@ -232,7 +233,7 @@ def eval_dataset(dataset_path, result_file_path):
         # rekognition_accuracy = rekognition(denoised_filepath)
         dataset_name = os.path.basename(dataset_path)
         image_id = dataset_name + dataset_relpath
-        ENG.iqa_fast(denoised_filepath, gt_filepath, image_id, result_file_path, nargout=0)
+        ENG.iqa(denoised_filepath, gt_filepath, image_id, result_file_path, nargout=0)
     ENG.exit()
 
 def process_results(result_file, archive_name):

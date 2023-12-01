@@ -1,0 +1,36 @@
+03_underexposure_extrema/1_1_4_018_03_5.jpg 
+03_underexposure_extrema/2_1_4_046_03_3.jpg 
+03_underexposure_extrema/4_3_3_024_03_2_noisy.jpg 0.514 coffee table 0.653 couch
+03_underexposure_extrema/1_1_4_018_03_5_noisy.jpg 0.679 Vehicle
+03_underexposure_extrema/2_1_4_046_03_3_noisy.jpg 
+03_underexposure_extrema/4_3_3_024_03_2.jpg 0.723 couch
+04_overexposure_extrema/2_5_5_022_04_5_noisy.jpg 
+04_overexposure_extrema/2_4_4_006_04_1.jpg 
+04_overexposure_extrema/1_4_4_052_04_5.jpg 
+04_overexposure_extrema/2_5_5_022_04_5.jpg 
+04_overexposure_extrema/1_4_4_052_04_5_noisy.jpg 
+04_overexposure_extrema/2_4_4_006_04_1_noisy.jpg 
+05_blur_extrema/1_5_4_096_05_4_noisy.jpg 
+05_blur_extrema/5_1_2_008_05_5.jpg 
+05_blur_extrema/1_5_4_096_05_4.jpg 
+05_blur_extrema/5_1_2_008_05_5_noisy.jpg 
+05_blur_extrema/4_1_5_014_05_1.jpg 
+05_blur_extrema/4_1_5_014_05_1_noisy.jpg 
+06_contrast_extrema/1_5_2_033_06_1.jpg 
+06_contrast_extrema/3_5_2_041_06_2_noisy.jpg 
+06_contrast_extrema/3_5_2_041_06_2.jpg 
+06_contrast_extrema/3_2_5_039_06_5_noisy.jpg 
+06_contrast_extrema/1_5_2_033_06_1_noisy.jpg 
+06_contrast_extrema/3_2_5_039_06_5.jpg 
+07_dirtylens1_extrema/1_5_5_097_07_1_noisy.jpg 0.852 coin
+07_dirtylens1_extrema/1_5_5_097_07_1.jpg 
+07_dirtylens1_extrema/2_1_1_019_07_3_noisy.jpg 
+07_dirtylens1_extrema/2_1_1_019_07_3.jpg 
+07_dirtylens1_extrema/1_1_3_034_07_5_noisy.jpg 
+07_dirtylens1_extrema/1_1_3_034_07_5.jpg 0.686 bubble
+08_dirtylens2_extrema/2_1_5_019_08_3_noisy.jpg 
+08_dirtylens2_extrema/2_1_5_019_08_3.jpg 
+08_dirtylens2_extrema/4_5_4_062_08_1.jpg 0.712 seating 0.556 dining table
+08_dirtylens2_extrema/2_4_4_053_08_5.jpg 
+08_dirtylens2_extrema/4_5_4_062_08_1_noisy.jpg 0.658 couch 0.547 table
+08_dirtylens2_extrema/2_4_4_053_08_5_noisy.jpg 

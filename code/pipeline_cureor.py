@@ -14,7 +14,7 @@ import math
 
 # RESULTS_DIR="./results/curetsr_block/"
 # RESULTS_DIR="./results/nlm_sidd_block/"
-RESULTS_DIR="./results/nlm_cureor_block_smoothless/"
+RESULTS_DIR="./results/nlm_cureor_block_smoothless_full/"
 # DOWNLOAD_DIR="./cache_tsr/download/"
 DOWNLOAD_DIR="./cache/download/"
 # EXTRACT_DIR="./cache_tsr/extracted/"
@@ -30,8 +30,8 @@ DATASET="CURE-OR"
 # DATASET="SIDD"
 # RESULTS_FILENAME="nlm_curetsr_block_results.txt"
 # RESULTS_FILENAME="nlm_sidd_block_results.txt"
-RESULTS_FILENAME="nlm_cureor_block_smoothless_results.txt"
-LOG_FILE="./log_nlm_cureor_block_smoothless.txt"
+RESULTS_FILENAME="nlm_cureor_block_smoothless_full_results.txt"
+LOG_FILE="./log_nlm_cureor_block_smoothless_full.txt"
 NLM_TUNED=True
 CLEAN_FILES=True
 
@@ -232,7 +232,7 @@ def eval_dataset(dataset_path, result_file_path):
         # rekognition_accuracy = rekognition(denoised_filepath)
         dataset_name = os.path.basename(dataset_path)
         image_id = dataset_name + dataset_relpath
-        ENG.iqa_fast(denoised_filepath, gt_filepath, image_id, result_file_path, nargout=0)
+        ENG.iqa(denoised_filepath, gt_filepath, image_id, result_file_path, nargout=0)
     ENG.exit()
 
 def process_results(result_file, archive_name):
@@ -316,6 +316,7 @@ def clean_result_files(archive_results_dir):
 
 if __name__ == "__main__":
     if os.path.exists(RESULTS_FILE):
+        pass
         print(f"MOVE THE EXISTING RESULT FILE AT {RESULTS_FILE} BEFORE RUNNING")
         sys.exit()
     if LOG_FILE is not None:

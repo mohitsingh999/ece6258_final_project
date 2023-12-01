@@ -4,8 +4,9 @@ import os
 
 pipeline.DATASET='SET12'
 pipeline.EXTRACT_DIR='../datasets/set12/'
-pipeline.RESULTS_DIR='./results/nlm_set12_block_smoothless/'
-pipeline.RESULTS_FILE=os.path.join(pipeline.RESULTS_DIR, 'nlm_set12_block_smoothless_results.txt')
+pipeline.RESULTS_DIR='./results/nlm_set12_block_smoothless_full/'
+# pipeline.RESULTS_FILE=os.path.join(pipeline.RESULTS_DIR, 'nlm_set12_block_smoothless_results.txt')
+pipeline.RESULTS_FILE=os.path.join(pipeline.RESULTS_DIR, 'nlm_set12_block_smoothless_full_results.txt')
 pipeline.GT_PATH='../datasets/set12/GT/'
 pipeline.LOG_FILE='./log_nlm_set12_block_smoothless.txt'
 pipeline.CLEAN_FILES=False
