@@ -12,6 +12,8 @@ function nlm(image_in, image_out, is_rgb)
     % CONVERT TO CIE IF IN RGB
     if is_rgb
         x = rgb2lab(x);
+    else
+        x = cat(3, x, x, x);
     end
 
     y = x;
@@ -54,6 +56,8 @@ function nlm(image_in, image_out, is_rgb)
     % CONVERT BACK TO RGB IF PROVIDED IN RGB
     if is_rgb
         x = lab2rgb(x);
+    else
+        x = x(:, :, 1);
     end
 
     % SAVE IMAGE OUT

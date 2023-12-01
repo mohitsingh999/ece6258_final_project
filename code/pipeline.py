@@ -176,7 +176,7 @@ def run_nlm(dataset_path, results_path):
         log(f"Running denoising on all images")
     for (infilepath, outfilepath, dataset_relpath) in files:
         is_rgb = True
-        if '.MAT' in infilepath:
+        if '.MAT' in infilepath or DATASET == 'SET12':
             is_rgb = False
         # if False:
         if TEST:
@@ -221,6 +221,8 @@ def eval_dataset(dataset_path, result_file_path):
             gt_filename[6:11] = list("00_00")  # Challenge type and challenge level to 0
             gt_filename = "".join(gt_filename)
             gt_filepath = os.path.join(gt_dirpath, gt_filename)
+        elif DATASET == "SET12":
+            gt_filepath = os.path.join(GT_PATH, os.path.basename(denoised_filepath))
         else:
             log("DATASET not supported by eval_dataset")
             return
@@ -281,10 +283,14 @@ def process_results(result_file, archive_name):
     try:
         if DATASET == "SIDD" or DATASET == "SIDD-SMALL":
             extension = ".PNG"
+        elif DATASET == "SET12":
+            extension = ".png"
         elif DATASET == "CURE-OR":
             extension = ".jpg"
         elif DATASET == "CURE-TSR":
             extension = ".bmp"
+        else:
+            log("need to add extension for dataset in process_results")
         max_noisy_filepath = max_image_path.replace(RESULTS_DIR, EXTRACT_DIR)
         max_noisy_dest_filepath = os.path.join(extrema_dir, os.path.basename(max_noisy_filepath).replace(extension, "_noisy" + extension))
         med_noisy_filepath = med_image_path.replace(RESULTS_DIR, EXTRACT_DIR)

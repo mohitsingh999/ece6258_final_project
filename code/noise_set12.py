@@ -10,7 +10,7 @@ gt_dirpath = os.path.join(dirpath, "GT/")
 for fname in os.listdir(gt_dirpath):
     gt_fpath = os.path.join(gt_dirpath, fname)
     im = dippykit.imread(gt_fpath)
-    for sigma in ['0.01', '0.10', '1.00', '10.0']:
+    for sigma in ['0.50', '1.00', '1.50', '10.0']:
         challenge = 'blur'
         challenge_dirpath = os.path.join(dirpath, challenge + sigma.replace(".", "-"))
         os.makedirs(challenge_dirpath, exist_ok=True)
