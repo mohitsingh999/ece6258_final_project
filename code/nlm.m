@@ -17,7 +17,11 @@ function nlm(image_in, image_out, is_rgb)
     % RUN NLM FILTER
     % x = imnlmfilt(x, 'DegreeOfSmoothing', 0.0001);
     % x = imnlmfilt(x, 'SearchWindowSize', 5);
-    x = imnlmfilt(x);
+    try
+        x = imnlmfilt(x);
+    catch
+        x = x;
+    end
 
     % % CONVERT BACK TO RGB IF PROVIDED IN RGB
     % if is_rgb

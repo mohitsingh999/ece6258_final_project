@@ -316,7 +316,6 @@ def clean_result_files(archive_results_dir):
 
 if __name__ == "__main__":
     if os.path.exists(RESULTS_FILE):
-        pass
         print(f"MOVE THE EXISTING RESULT FILE AT {RESULTS_FILE} BEFORE RUNNING")
         sys.exit()
     if LOG_FILE is not None:
